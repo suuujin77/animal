@@ -81,6 +81,8 @@ h3 {
 .btn-primary {
     background-color: var(--primary-color);
     color: #fff;
+    padding: 7px 24px;
+    /* 12px에서 5px 축소 */
 }
 
 .btn-primary:hover {
