@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우리 아이 안심 병원 | 안심 동물의료센터</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Inter & Pretendard fallback -->
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">안심 동물의료센터</a>
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a href="#services">진료안내</a></li>
+                    <li><a href="#trust">병원특징</a></li>
+                    <li><a href="#team">의료진</a></li>
+                    <li><a href="#reviews">장문후기</a></li>
+                    <li><a href="#contact">오시는길</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="tel:010-0000-0000" class="btn btn-phone">📞 010.0000.0000</a>
+                <a href="#contact" class="btn btn-primary">예약하기</a>
+                <button class="mobile-toggle" aria-label="메뉴 열기">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <h1 class="headline">우리 아이<br><span>평생 주치의</span></h1>
+                    <p class="subline">예방접종 · 건강검진 · 내과/외과 · 응급처치</p>
+                    <div class="hero-info">
+                        <p>평일 09:30 - 20:00 | 주말/공휴일 진료</p>
+                    </div>
+                    <a href="#contact" class="btn btn-circle">예약하기</a>
+                </div>
+                <div class="hero-image">
+                    <img id="hero-img"
+                        src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=1200&q=80"
+                        alt="우리 아이">
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="container stats-bar">
+                <div class="stat-item">
+                    <div class="stat-num-group">
+                        <span class="stat-num" data-target="12000">0</span><span class="stat-suffix">+</span>
+                    </div>
+                    <span class="stat-label">누적 진료</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-num-group">
+                        <span class="stat-num" data-target="92">0</span><span class="stat-suffix">%</span>
+                    </div>
+                    <span class="stat-label">재방문율</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-num-group">
+                        <span class="stat-num" data-target="10">0</span><span class="stat-suffix">년+</span>
+                    </div>
+                    <span class="stat-label">진료 경력</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Grid -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">전문적인 반려동물 케어</h2>
+                <p class="section-subtitle">각 분야별 전문 의료진이 정성을 다해 진료합니다.</p>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=600&q=80"
+                                alt="건강검진">
+                        </div>
+                        <div class="service-info">
+                            <h3>건강검진</h3>
+                            <p>정기적인 검진으로<br>질병을 조기에 예방합니다.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=600&q=80"
+                                alt="예방접종">
+                        </div>
+                        <div class="service-info">
+                            <h3>예방접종</h3>
+                            <p>기초 접종 및<br>심장사상충 예방 케어</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=600&q=80"
+                                alt="내과 진료">
+                        </div>
+                        <div class="service-info">
+                            <h3>내과 진료</h3>
+                            <p>풍부한 경험으로<br>정확하게 진단하고 치료합니다.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=600&q=80"
+                                alt="미용/그루밍">
+                        </div>
+                        <div class="service-info">
+                            <h3>미용/그루밍</h3>
+                            <p>스트레스 없는, 편안한<br>미용서비스를 제공합니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trust Section -->
+        <section id="trust" class="trust">
+            <div class="container">
+                <div class="trust-block">
+                    <div class="trust-content">
+                        <h2>처음 방문부터<br>신뢰가 쌓이는 진료</h2>
+                        <div class="trust-grid">
+                            <div class="trust-item">
+                                <h4>투명한 상담</h4>
+                                <p>전 과정을 상세히 설명해 드립니다.</p>
+                            </div>
+                            <div class="trust-item">
+                                <h4>철저한 위생</h4>
+                                <p>안전한 환경을 최우선으로 합니다.</p>
+                            </div>
+                            <div class="trust-item">
+                                <h4>정품 장비</h4>
+                                <p>검증된 안전한 장비만을<br>사용합니다.</p>
+                            </div>
+                            <div class="trust-item">
+                                <h4>맞춤형 사후 관리</h4>
+                                <p>진료 후 관리 방법까지 꼼꼼히<br>챙겨드립니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trust-image">
+                        <img src="vet-image.jpg" alt="진료하는 수의사">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section (Added) -->
+        <section id="team" class="team">
+            <div class="container">
+                <h2 class="section-title">최고의 전문 의료진</h2>
+                <p class="section-subtitle">풍부한 경험과 진심 어린 마음으로 반려동물을 대합니다.</p>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="team-img">
+                            <img src="director.jpg" alt="원장 김안심">
+                        </div>
+                        <div class="team-info">
+                            <h3>김안심 원장</h3>
+                            <p class="specialty">내과 / 외과 전문의</p>
+                            <p class="philosophy">"반려동물에게는 가족의 마음으로, 보호자님께는 친구처럼 다가갑니다."</p>
+                        </div>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-img">
+                            <img src="vice-director.jpg" alt="부원장 이진심">
+                        </div>
+                        <div class="team-info">
+                            <h3>이진심 부원장</h3>
+                            <p class="specialty">고양이 / 예방의학</p>
+                            <p class="philosophy">"세심한 관찰과 투명한 소통으로 정확한 진료를 약속합니다."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section (Added) -->
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title">보호자님들의 생생한 후기</h2>
+                <div class="reviews-slider-container">
+                    <div class="reviews-viewport">
+                        <div class="reviews-wrapper">
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"원장님이 정말 친절하게 설명해 주셔서 안심이 됐어요. 병원도 깨끗하고 고양이가 스트레스 덜 받게 잘 케어해
+                                    주십니다."
+                                </p>
+                                <p class="reviewer">- 초코 보호자님</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"야간에 갑자기 아파서 갔는데 응급처치를 너무 잘해주셔서 다행이었어요. 시설도 최신식이라 믿음이 갑니다."</p>
+                                <p class="reviewer">- 멍멍이 보호자님</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"미용도 같이 하는데 다른 곳보다 훨씬 정성스럽게 해주셔서 감동받았습니다. 앞으로 여기만 다닐 것 같아요!"</p>
+                                <p class="reviewer">- 루루 보호자님</p>
+                            </div>
+                            <!-- 추가된 후기 -->
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"과잉 진료 없이 꼭 필요한 처치만 해주셔서 믿음이 가요. 선생님들이 다들 동물을 진심으로 아껴주시는 게
+                                    느껴집니다."
+                                </p>
+                                <p class="reviewer">- 보리 보호자님</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"대기 공간도 쾌적하고 진료 시스템이 체계적이에요. 우리 집 강아지가 병원을 무서워하는데 여기서는 훨씬
+                                    편안해합니다."
+                                </p>
+                                <p class="reviewer">- 해피 보호자님</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 슬라이더 컨트롤 -->
+                    <div class="slider-controls">
+                        <button class="slider-btn prev" aria-label="이전 후기">←</button>
+                        <div class="slider-dots"></div>
+                        <button class="slider-btn next" aria-label="다음 후기">→</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA & Contact -->
+        <section id="contact" class="cta-contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>상담 및 예약</h2>
+                        <p>언제든 편안하게 문의해 주세요.</p>
+                        <ul class="contact-details">
+                            <li><strong>전화번호</strong> 010-0000-0000</li>
+                            <li><strong>진료시간</strong> 평일 09:30 - 20:00 (토/공휴일 포함)</li>
+                            <li><strong>오시는길</strong> 서울특별시 OO구 OO로 123</li>
+                        </ul>
+                        <div class="contact-btns">
+                            <a href="tel:01000000000" class="btn btn-phone-large">전화 연결하기</a>
+                            <a href="http://pf.kakao.com/_xxxx" target="_blank" class="btn btn-kakao">카카오톡 문의</a>
+                        </div>
+                    </div>
+                    <div class="contact-map">
+                        <!-- * 카카오맵 - 지도퍼가기 -->
+                        <!-- 1. 지도 노드 -->
+                        <div id="daumRoughmapContainer1767455456844"
+                            class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+                        <!-- 2. 설치 스크립트 -->
+                        <script charset="UTF-8" class="daum_roughmap_loader_script"
+                            src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                        <!-- 3. 실행 스크립트 -->
+                        <script charset="UTF-8">
+                            new daum.roughmap.Lander({
+                                "timestamp": "1767455456844",
+                                "key": "fe2oq48cwnt",
+                                "mapWidth": "640",
+                                "mapHeight": "360"
+                            }).render();
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-info">
+                <p>&copy; 2026 안심 동물의료센터. All rights reserved.</p>
+                <p>사업자등록번호: 000-00-00000 | 대표: 김안심</p>
+                <p>주소: 서울특별시 OO구 OO로 123 | 연락처: 010-0000-0000</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
