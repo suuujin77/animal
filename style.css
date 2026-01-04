@@ -758,14 +758,14 @@ h3 {
 .btn-phone-large {
     background-color: var(--text-primary);
     color: #fff;
-    padding: 13px 36px;
+    padding: 8px 36px;
     font-size: 1.1rem;
 }
 
 .btn-kakao {
     background-color: #FEE500;
     color: #3C1E1E;
-    padding: 13px 36px;
+    padding: 8px 36px;
     font-size: 1.1rem;
 }
 
